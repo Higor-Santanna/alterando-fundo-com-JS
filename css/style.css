@@ -1,0 +1,99 @@
+.fundo-pai{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.fundo-pai .quadrado-pai{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+}
+
+.fundo-pai .quadrado-pai.selecionado{
+    opacity: 1;
+}
+
+.fundo-1{
+    background: url(../images/imagem.png) no-repeat;
+}
+
+.fundo-2{
+    background: url(../images/imagem-1.png) no-repeat;
+}
+
+.fundo-3{
+    background: url(../images/imagem-2.png) no-repeat;
+}
+
+.fundo-4{
+    background: url(../images/imagem-3.png) no-repeat;
+}
+
+.btn-seta{
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+}
+
+.seta-esquerda{
+    left: 4%;
+}
+
+.seta-direita{
+    right: 4%;
+}
+
+.opacidade{
+    opacity: 0.6;
+    cursor: default;
+}
+
+.quadrado-filho{
+    background-color: #fff;
+    margin-left: 180px;
+    padding: 65px 60px;
+    width: 620px;
+    border-radius: 10px;
+}
+
+.quadrado-filho .titulo{
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0 0 80px 60px;
+}
+
+.quadrado-filho p{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0 60px 50px 60px;
+}
+
+.quadrado-filho .saiba-mais{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.quadrado-filho .cor-primeiro{
+    color: #C50000;
+}
+
+.quadrado-filho .cor-segundo{
+    color: #D9DD10;
+}
+
+.quadrado-filho .cor-terceiro{
+    color:#A63A17;
+}
+
+.quadrado-filho .cor-quarto{
+    color: #10ACDD;
+}
